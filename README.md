@@ -1,4 +1,1 @@
-﻿# restaurantManagement
-Is a web application that serves as a  guide to Elbasan's bar and restaurants, where every moment it provides informations about the available places in that bar/restaurants.
-In addition it has information about all of the weekly events of the city, daily offers of bars/restaurants, reservation opportunities and the city map with all registered restaurant in it. 
- 
+This web application serves as a comprehensive guide to Elbasan's bars and restaurants, providing real-time updates on available seating at these establishments. Additionally, it features information about the city's weekly events, daily offers from bars and restaurants, reservation options, and an interactive city map showcasing all registered dining venues.
