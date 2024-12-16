@@ -1,0 +1,30 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$route['infoLokal/(:any)'] = 'pages/infoLokal/$1';
+$route['harta'] = 'pages/harta';
+$route['loginMng'] = 'pages/loginMng';
+$route['regjistrimi'] = 'pages/regjistrimi';
+$route['validimMng'] = 'pages/validimMng';
+$route['logout'] = 'pages/logout';
+$route['eventetJavore'] = 'pages/eventetJavore';
+$route['ofertaDitore'] = 'pages/ofertaDitore';
+$route['procesLogimi'] = 'pages/procesLogimi';
+$route['shtoOferte'] = 'pages/shtoOferte';
+$route['shtoEvent'] = 'pages/shtoEvent';
+$route['menaxher'] = 'pages/menaxher';
+$route['infoLokal'] = 'pages/infoLokal';
+$route['logimi'] = 'pages/logimi';
+$route['logoutMng'] = 'pages/logoutMng';
+$route['rezervimi'] = 'pages/rezervimi';
+$route['shfaqTabele/(:any)'] = 'pages/shfaqTabele/$1';
+$route['shtoVend/(:any)']='pages/shtoVend/$1';
+$route['eshtePlot/(:any)']='pages/eshtePlot/$1';
+$route['mbyllLokalin/(:any)']='pages/mbyllLokalin/$1';
+$route['hapLokalin/(:any)']='pages/hapLokalin/$1';
+$route['eshteBosh/(:any)']='pages/eshteBosh/$1';
+$route['zbritVend/(:any)']='pages/zbritVend/$1';
+$route['default_controller'] = 'pages/index';
+$route['(:any)'] = 'pages/index/$1';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
